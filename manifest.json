@@ -1,0 +1,151 @@
+{
+    "name" : "亲铺",
+    "appid" : "__UNI__C3B0C8C",
+    "description" : "买买买",
+    "versionName" : "1.0.1",
+    "versionCode" : "100",
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : false,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {
+            "VideoPlayer" : {},
+            "OAuth" : {},
+            "Payment" : {},
+            "Webview-x5" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "schemes" : "alqqalqq"
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "urltypes" : "alqqalqq"
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wx6b45b7c7a0b3b9fc",
+                        "appsecret" : "2e7b0bf3f3ef20ed5ba2022ff98cd945",
+                        "UniversalLinks" : ""
+                    }
+                },
+                "payment" : {
+                    "weixin" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appid" : "wx6b45b7c7a0b3b9fc",
+                        "UniversalLinks" : ""
+                    }
+                }
+            },
+            "splashscreen" : {
+                "androidStyle" : "common"
+            }
+        }
+    },
+    // "optimization": {
+    //     "subPackages": true
+    //   },
+    //   "runmode" : "liberate" // 开启分包优化后，必须配置资源释放模式
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wx6b45b7c7a0b3b9fc",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "minified" : true,
+            "postcss" : true
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "用于获取位置"
+            }
+        },
+        "plugins" : {
+            "live-player-plugin" : {
+                "version" : "1.2.8",
+                "provider" : "wx2b03c6e691cd7370"
+            },
+            "tencentvideo" : {
+                "version" : "1.3.20",
+                "provider" : "wxa75efa648b60994b"
+            }
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "h5" : {
+        "domain" : "www.baidu.com"
+    }
+}
+// "devServer" : {
+//     "proxy" : {
+//         "/api8" : {
+//             "target" : "https://mall.dev.qinpu.cloud/index.php?store_id=22&r=api",
+//             "changeOrigin" : true,
+//             "pathRewrite" : {
+//                 "^/api8" : ""
+//             }
+//         }
+//     }
+// }
+// "proxy": {
+// 	"https:\/\/bm.api.qinpu.cloud/index.php?store_id=22&r=api/": {
+// 		"target": "https:\/\/bm.api.qinpu.cloud/index.php?store_id=22&r=api/",
+// 		"changeOrigin": true,
+// 		"pathRewrite": {
+// 			"^https:\/\/bm.api.qinpu.cloud/index.php?store_id=22&r=api/": ""
+// 		}
+// 	}
+// }
+

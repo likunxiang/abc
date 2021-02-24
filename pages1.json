@@ -1,0 +1,128 @@
+{
+	"pages": [ //亲联盟的pages
+
+		{
+			"path": "pages/qinUnion/qinUnion",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/taobao/taobao",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/jingdong/jingdong",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/seachAll/seachAll",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/goodsTK/goodsTK",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/hot/hot",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/related/related",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/article-detail/article-detail"
+		}, {
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+
+		},
+		{
+			"path": "pages/newSearch/newSearch",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/a/a",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/qlm/qlm",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/taobao_quan/taobao_quan",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/webView/webView",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "Mall",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F4F4F4"
+
+	},
+	"subPackages": [
+
+		{
+			"root": "member",
+			"pages": [{
+					"path": "homePage/homePage",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "more_quan/more_quan",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+
+			]
+		}
+	]
+
+}
